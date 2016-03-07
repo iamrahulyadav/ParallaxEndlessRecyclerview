@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:background="#3AE2CE"
+    android:orientation="vertical">
+
+  <!--<TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+      android:layout_marginTop="5dp"
+        android:text="Discover the best fashion stores around you"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#555"
+        android:textSize="20dp" />-->
+
+    <EditText
+        android:id="@+id/cproduct"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="5dp"
+         android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:hint="Choose your product"
+        android:textColor="#555"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/carea"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:hint="Choose your area"
+        android:textColor="#555"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="Search"
+        android:textColor="#555"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="OR"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#555"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/cstore"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:hint="Search by store name"
+        android:textColor="#555"
+        android:textSize="18dp" />
+
+</LinearLayout>
